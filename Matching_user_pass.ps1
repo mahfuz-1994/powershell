@@ -13,7 +13,7 @@ Write-Host "$apiid"
 Write-Host "+++++++++++++"
 #>
 #if($apiuser -eq "godofwar" -and $apipass -eq "war")
-if($apiuser -eq "${env.pwshuser}" -and $apipass -eq "${env.pwshpass}")
+if($apiuser -eq ${env:pwshuser} -and $apipass -eq ${env:pwshpass})
 {
     Write-Output "Correct credentials"
 }
