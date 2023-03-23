@@ -14,10 +14,10 @@ Write-Host "+++++++++++++"
 #>
 if($apiuser -eq "godofwar" -and $apipass -eq "war")
 {
-    Write-Output "Inside if loop"
+    Write-Output "Correct credentials"
 }
 else
 {
-    Write-Output "Else loop"
+    Write-Output "Wrong credentials"
     throw 'Auth fail'
 }
