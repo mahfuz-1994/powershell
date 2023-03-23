@@ -12,7 +12,7 @@ Write-Output "-----------"
 Write-Host "$apiid"
 Write-Host "+++++++++++++"
 #>
-if($apiuser -eq "godwar" -and $apipass -eq "war")
+if($apiuser -eq "godofwar" -and $apipass -eq "war")
 {
     Write-Output "Inside if loop"
 }
