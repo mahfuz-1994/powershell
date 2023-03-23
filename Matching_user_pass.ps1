@@ -12,7 +12,8 @@ Write-Output "-----------"
 Write-Host "$apiid"
 Write-Host "+++++++++++++"
 #>
-if($apiuser -eq "godofwar" -and $apipass -eq "war")
+#if($apiuser -eq "godofwar" -and $apipass -eq "war")
+if($apiuser -eq $pwshuser -and $apipass -eq $pwshpass)
 {
     Write-Output "Correct credentials"
 }
